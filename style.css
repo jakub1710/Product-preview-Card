@@ -20,6 +20,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-direction: column;
 	width: 100vw;
 	height: 100vh;
 	font-family: 'Montserrat', sans-serif;
@@ -37,9 +38,8 @@ body {
 
 img {
 	max-width: 100%;
-}
-.background-img-desktop {
-	display: none;
+	background-position: center;
+	background-size: cover;
 }
 
 .main-section {
@@ -52,12 +52,13 @@ img {
 }
 
 h1.title,
-.price {
+.current-price {
 	font-family: 'Fraunces', serif;
 }
 
 h1.title {
-	margin: 0.5em 0;
+	margin: 0.5em 2.5em 0.5em 0;
+	font-size: 2.6rem;
 }
 
 .text {
@@ -70,18 +71,13 @@ h1.title {
 	margin: 1em 0;
 }
 
-.price {
-	width: 50%;
-}
-
 .current-price {
+	margin-right: 1em;
 	font-size: 2.5rem;
 	color: var(--dark-cyan);
 }
 
 .first-price {
-	font-family: 'Montserrat', sans-serif;
-	text-decoration: line-through;
 	color: var(--dark-grayish-blue);
 }
 
@@ -107,22 +103,14 @@ i {
 	.container {
 		display: flex;
 		max-width: 1000px;
-		height: auto;
 	}
 
-	img {
-		max-width: 50%;
-	}
-
-	.background-img-mobile {
-		display: none;
-	}
-
-	.background-img-desktop {
-		display: block;
+	picture {
+		width: 50%;
 	}
 
 	.main-section {
+		width: 50%;
 		padding: 3em;
 	}
 
@@ -151,9 +139,5 @@ i {
 
 	.btn {
 		font-size: 2.5rem;
-	}
-
-	br {
-		display: none;
 	}
 }
