@@ -15,7 +15,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### Screenshot
 
-![Mobile](./screenshots/screenshot-mobile.png)
+![Mobile](./Screenshot 2022-10-06 at 21-02-23 Product preview card.png)
 
 ### Links
 
